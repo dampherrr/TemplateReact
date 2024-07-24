@@ -1,0 +1,23 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "main.jsx",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.36.1",
+    "@vitejs/plugin-react": "^4.3.1",
+    "axios": "^1.7.2",
+    "my-react-app": "file:..",
+    "prop-types": "^15.8.1",
+    "react-router-dom": "^6.25.1",
+    "styled-components": "^6.1.12"
+  },
+  "devDependencies": {
+    "sass": "^1.77.8",
+    "vite": "^4.0.0"
+  }
+}

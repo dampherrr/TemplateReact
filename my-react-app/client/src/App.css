@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+:root {
+  --font-color: #ffffff;
+  --background-color: #0d1d31;
+  --background-color-gradient: #0c0d13;
+  --primary-color: #ffffff;
+  --secondary-color: #fffbc5;
+  --background-button: #ffffff36;
+  --nav-bar-background: rgba(0, 0, 0, 0.7);
+  --shadow-color: rgba(0, 0, 0, 0.5);
+  --font-family: "Poppins", sans-serif;
+}
+* {
+  color: var(--font-color);
+  font-family: var(--font-family);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(
+    ellipse at bottom,
+    var(--background-color) 0%,
+    var(--background-color-gradient) 100%
+  );
+  overflow: hidden;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+}
+
+.content {
+  margin-top: 20px; /* Adjust this as needed to create space between elements */
+  width: 80%;
+}
+
+.sayHello {
+  color: var(--font-color);
+  font-family: var(--font-family);
+  font-size: 3em;
+}
