@@ -1,72 +1,23 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
 
 import "../App.css";
 import "../styles/navbar.scss";
 import "../styles/stars.scss";
 
-function Project() {
-  const navigate = useNavigate();
-
-  const goHome = () => {
-    navigate("/");
-  };
-  const goAbout = () => {
-    navigate("/About");
-  };
-  const goProject = () => {
-    navigate("/Projects");
-  };
-  const goNews = () => {
-    navigate("/News");
-  };
-
-  const goContact = () => {
-    navigate("/Contact");
-  };
+function Projects() {
   return (
     <>
       <div className="container">
-        <h1 className="sayHello">Project</h1>
-      </div>
-      <div className="menu">
-        <nav className="navBar">
-          <button type="button" className="titleNav" onClick={goHome}>
-            <img
-              className="reactIcon"
-              src="./assets/media/pictures/react.gif"
-              alt=""
-            />{" "}
-            Template
-          </button>
-          <ul className="list">
-            <li>
-              <button type="button" className="navigation" onClick={goAbout}>
-                About
-              </button>
-            </li>
-            <li>
-              <button type="button" className="navigation" onClick={goProject}>
-                Projects
-              </button>
-            </li>
-            <li>
-              <button type="button" className="navigation" onClick={goNews}>
-                News
-              </button>
-            </li>
-            <li>
-              <button type="button" className="navigation" onClick={goContact}>
-                Contact
-              </button>
-            </li>
-          </ul>
-          <button className="search">Search</button>
-          <button className="menubutton">Menu</button>
-        </nav>
+        <h1 className="sayHello">Projects</h1>
+        <div className="content">
+          <img
+            src="https://i.makeagif.com/media/7-17-2021/vdytgr.gif"
+            alt="DeathStar Building GIF"
+          />
+        </div>
       </div>
     </>
   );
 }
 
-export default Project;
+export default Projects;

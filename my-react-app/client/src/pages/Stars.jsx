@@ -1,5 +1,5 @@
 import { BackgroundProvider } from "../context/StarContext.jsx";
-import "../styles/stars.css";
+import "../styles/stars.scss";
 
 function Stars() {
   return (
